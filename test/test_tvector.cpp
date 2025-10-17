@@ -58,17 +58,17 @@ TEST(TVector, copied_vector_has_its_own_memory)
 
 TEST(TVector, can_get_size)
 {
-  TVector<int> v(4);
+    TVector<int> v(4);
 
-  EXPECT_EQ(4, v.size());
+    EXPECT_EQ(4, v.size());
 }
 
 TEST(TVector, can_set_and_get_element)
 {
-  TVector<int> v(4);
-  v[0] = 4;
+    TVector<int> v(4);
+    v[0] = 4;
 
-  EXPECT_EQ(4, v[0]);
+    EXPECT_EQ(4, v[0]);
 }
 
 TEST(TVector, throws_when_set_element_with_negative_index)
