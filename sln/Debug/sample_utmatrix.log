@@ -1,0 +1,3 @@
+﻿  sample_matrix.cpp
+sample_matrix.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  sample_utmatrix.vcxproj -> C:\Users\s24380094\Desktop\EverlastingMemories\mp2-lab2-matrix\sln\Debug\sample_utmatrix.exe
