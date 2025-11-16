@@ -13,6 +13,12 @@
     <ClInclude Include="..\include\tmatrix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="tvectoriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tvector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\samples\sample_matrix.cpp">
